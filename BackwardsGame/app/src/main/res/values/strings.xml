@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Backwards Game</string>
+
+    <string name="title_activity_original">Original</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_time_trials">Time Trials</string>
+
+    <string name="title_activity_shootout">Shootout</string>
+
+    <string name="title_activity_local_match">Local Match</string>
+</resources>
