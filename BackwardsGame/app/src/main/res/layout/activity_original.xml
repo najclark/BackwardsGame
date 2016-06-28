@@ -21,9 +21,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/tvScoreOriginal"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Medium Text"
-            android:id="@+id/tvOriginal"
+            android:id="@+id/tvOutputOriginal"
             android:layout_weight="0.1"
             android:gravity="center"/>
 
@@ -32,28 +40,32 @@
             android:layout_height="wrap_content"
             android:text="New Button"
             android:id="@+id/btn1Original"
-            android:layout_weight="0.25"/>
+            android:layout_weight="0.25"
+            android:onClick="onClick"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="New Button"
             android:id="@+id/btn2Original"
-            android:layout_weight="0.25"/>
+            android:layout_weight="0.25"
+            android:onClick="onClick"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="New Button"
             android:id="@+id/btn3Original"
-            android:layout_weight="0.25"/>
+            android:layout_weight="0.25"
+            android:onClick="onClick"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="New Button"
             android:id="@+id/btn4Original"
-            android:layout_weight="0.25"/>
+            android:layout_weight="0.25"
+            android:onClick="onClick"/>
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
