@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
             alert.show();
         }
         else if(v.getId() == timetrials.getId()){
-
+            Intent myIntent = new Intent(MainActivity.this, TimeTrials.class);
+            MainActivity.this.startActivity(myIntent);
         }
         else if(v.getId() == shootout.getId()){
 
