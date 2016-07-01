@@ -9,4 +9,130 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="io.github.najclark.backwardsgame.LocalMatch">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:rotation="180"
+            android:weightSum="1.1"
+            android:id="@+id/llTop">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/tvTop"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/btn1Top"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25"
+                android:singleLine="true"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/btn2Top"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25"
+                android:singleLine="true"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/btn3Top"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25"
+                android:singleLine="true"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/btn4Top"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25"
+                android:singleLine="true"
+                android:onClick="onClick"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:weightSum="1.1"
+            android:id="@+id/llBottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/tvBottom"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/btn1Bottom"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25"
+                android:singleLine="true"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/btn2Bottom"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25"
+                android:singleLine="true"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/btn3Bottom"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25"
+                android:singleLine="true"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/btn4Bottom"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25"
+                android:singleLine="true"
+                android:onClick="onClick"/>
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>
